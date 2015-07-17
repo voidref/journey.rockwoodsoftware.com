@@ -1,4 +1,5 @@
 #!/bin/sh
 bundle exec middleman build
-mv build/* ../
+cp -r build/* ../
+rm -rf build
 

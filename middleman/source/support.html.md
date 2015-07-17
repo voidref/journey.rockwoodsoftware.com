@@ -11,5 +11,9 @@ For the first release, we are focusing on having an ideal iPhone expierence, fut
 ### What is the clibboard icon at the far right and why is it grayed out?
 The Clipboard button at the right of your screen is for pasting items that you copied elsewhere on your phone. Once you have copied something (for example, an URL from Safari), the button will be enabled and you can press it to create a new item from your system clipboard.
 
+---
+
+<br>
+
 # Additional help
 If you need any additional help, please contact us at journeysupport@rockwoodsoftware.com
