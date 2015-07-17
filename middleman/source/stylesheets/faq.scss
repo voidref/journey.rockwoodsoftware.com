@@ -1,0 +1,85 @@
+@import 'compass';
+@import 'compass/css3';
+@import 'breakpoint';
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300.400');
+
+$font: 'Source Sans Pro', sans-serif;
+
+$medium_text: 400;
+$normal_text: 300;
+$light_text: 200;
+
+$desktop_breakpoint: 763px;
+
+$primary_text_color: rgba(0, 0, 0, 0.85);
+$secondary_text_color: rgba(0, 0, 0, 0.5);
+$accent_text_color: #FF2D55;
+
+body,html {
+  background: #fff;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-family: $font;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,ul,li,ol {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	border-style: none;
+}
+
+h1 {
+  font-size: 27px;
+  font-weight: $normal_text;
+  color: $secondary_text_color;
+  text-align: center;
+  margin-bottom: 60px;
+
+  @include breakpoint($desktop_breakpoint) {
+    font-weight: $light_text;
+    font-size: 37px;
+  }
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: $medium_text;
+  color: $primary_text_color;
+  margin-top: 45px;
+}
+
+p {
+  font-size: 19px;
+  font-weight: $normal_text;
+  color: $secondary_text_color;
+}
+
+a,a:visited,a:hover,a:visited {
+  text-decoration: none;
+  color: $accent_text_color;
+  font-weight: bolder;
+}
+
+.container {
+  max-width: 800px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+
+  .header {
+    width: 90%;
+    margin: 60px auto 20px auto;
+  }
+
+  .content {
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+  }
+}
