@@ -47,11 +47,25 @@ h1 {
   }
 }
 
+h2 {
+  font-size: 25px;
+  font-weight: $medium_text;
+  color: $primary_text_color;
+}
+
 h3 {
   font-size: 22px;
   font-weight: $medium_text;
   color: $primary_text_color;
   margin-top: 45px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: black;
+  opacity: 0.1;
+  margin: 40px 0;
 }
 
 p {
