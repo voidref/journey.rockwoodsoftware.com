@@ -11,7 +11,7 @@
   %body{:class => page_classes}
 
     .container
-      .header
+      %header{:class => "header", :role => "banner"}
         = image_tag 'logo.png', :width => 252, :height => 158, :alt => "The Journey"
-      .content
+      %main{:class => "content"}
         = yield
