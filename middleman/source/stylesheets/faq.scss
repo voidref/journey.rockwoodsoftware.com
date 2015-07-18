@@ -48,16 +48,15 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
-  font-weight: $medium_text;
-  color: $primary_text_color;
-}
-
-h3 {
   font-size: 22px;
   font-weight: $medium_text;
   color: $primary_text_color;
   margin-top: 45px;
+}
+
+[role="complementary"] h2 {
+  font-size: 25px;
+  margin-top: 0px;
 }
 
 hr {

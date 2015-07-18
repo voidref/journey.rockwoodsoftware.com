@@ -13,5 +13,7 @@ The Clipboard button at the right of your screen is for pasting items that you c
 
 ---
 
-## Additional help
-If you need any additional help, please contact us at [journeysupport@rockwoodsoftware.com](mailto:journeysupport@rockwoodsoftware.com)
+<div role="complementary">
+  <h2> Additional help</h2>
+  <p>If you need any additional help, please contact us at <a href="journeysupport@rockwoodsoftware.com">journeysupport@rockwoodsoftware.com</a></p>
+</div>
